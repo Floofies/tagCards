@@ -15,7 +15,7 @@ You can then save the resultant HTML/CSS for use on a static page, or let the sc
 
 ## Attributes
 
-There are several valid WC3 Data Attributes, to be used on valid parent elements only:
+There are several valid W3C Data Attributes, to be used on valid parent elements only:
 Attribute|Summary
 ---|---
 `data-title`|Sets the card's title/heading text.
