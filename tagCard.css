@@ -1,0 +1,57 @@
+.tagCard {
+	transition: background-color 0.5s, border 0.5s, border-top 0.5s, border-bottom 0.5s;
+	background-color: rgb(250, 250, 250);
+	padding: 10px;
+	position: relative;
+	border: 1px solid rgb(230, 230, 230);
+	border-top: 1px solid rgb(240, 240, 240);
+	border-radius: 3px;
+}
+
+.tagCard:hover {
+	transition: background-color 0.2s, border 0.2s, border-top 0.2s, border-bottom 0.2;
+	background-color: white;
+	border: 1px solid rgb(204, 204, 204);
+	border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+.tagCard:hover .tagCardHeader {
+	transition: text-decoration-color 0.2s;
+	font-weight: bold;
+	text-decoration-color: #000;
+}
+
+.tagCard div:not(:last-child) {
+	padding-bottom: 5px;
+}
+
+.tagCardHeader {
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 0.5s;
+	display: block;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.tagCardDescription {
+	color: #555;
+	overflow: hidden;
+	clear: both;
+	word-wrap: break-word;
+}
+
+.tagCardfooter {
+	border-top: 1px solid #eee;
+}
+
+.tagCardTag {
+	color: #777;
+	font-size: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.tagCardTag:not(:last-child):after {
+	content: ",";
+}
